@@ -1,0 +1,8 @@
+.wrapper {
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(152, 178, 223);
+}
