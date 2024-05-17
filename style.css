@@ -1,8 +1,295 @@
-.wrapper {
-    align-items: center;
-    justify-content: center;
-    height: 75vh;
+.wrapper{
+    background-image: url(./collage-group-people-using-smartphones-city-realistic-caricature_614088-379.jpg);
+    background-size: cover;
+    height: 100vh;
     width: 100%;
     display: flex;
     background-color: rgb(152, 178, 223);
 }
+.footer{
+    background-color: black;
+    margin-bottom: 0px;
+    height: 250px;
+    width: 100%;
+    color: white;
+}
+.footer .copyright{
+  background-color: white;
+}
+.copyright{
+    text-align: center;
+    font-weight: 500;
+    height: 60px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.copyright p{
+    margin-bottom: 0.25rem;
+    color: black;
+}
+.bottom-section {
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;    
+}
+.social-media{
+    height: 60px;
+    width: 100%;
+    margin-left: 25px;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+.social-media i{
+    text-align: center;
+    padding: 0.5rem 1.5rem;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0.7;
+}
+.bottom-section a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: white;
+    opacity: 0.7;
+}
+.social-media i:hover{
+    opacity: 1;
+}
+.social-media a:hover{
+    opacity: 1;
+}
+.footer div p{
+    text-align: center;
+    padding-top: 1.5rem;
+    font-size: 1.25rem;
+}
+.text-center{
+    display: flex;
+    align-items: center;
+    margin-left: 22%;
+    font-size: 6rem;
+    text-align: center;
+    margin-bottom: 18%;
+    color: white;
+}
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+        text-align: center; /* Center the content */
+        padding: 4rem; /* Add some padding */
+        background-color: #abdddb; /* Light gray background */
+        border: 5px solid blue;
+        box-shadow: 2px 2px 5px blue ;
+        margin-top: 5rem;
+        height: 27rem;
+      }
+      
+      .about h2 {
+        margin-bottom: 1rem; /* Add space below heading */
+        font-size: 3rem; /* Larger font size for heading */
+        color: rgb(2, 2, 81);
+        
+      }
+      
+      .about p {
+        font-size: 1rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        line-height: 2rem; /* Add some line spacing */
+        margin-bottom: 2rem; /* Add space below paragraph */
+        color: #0a0909;
+      }
+      
+      .about img {
+        width: 100%; /* Set the image width */
+        border-radius: 5px; /* Add rounded corners */
+        margin: 0 auto; /* Center the image horizontally */
+        display: flex;
+      }
+      
+      /* Media query for smaller screens */
+      @media (max-width: 768px) {
+        .about img {
+          width: 100%; /* Make image full width on small screens */
+        }
+    }
+
+    body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(183, 226, 212);
+        overflow-x: hidden;
+      }
+      
+      .importance-section {
+        background-color: #eff4f7;
+        padding: 50px 0;
+      }
+      
+      .important-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        border: 7px solid black;
+        box-shadow: 2px 2px 8px black;
+        background-color: #abdddb;
+      }
+      
+      .important-container h2{
+        color: #0a0909;
+        text-align: center;
+      }
+      
+      .important-container p{
+        color: black;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 500;
+      }
+      @media (max-width: 768px) {
+        .container {
+            padding: 0px;
+        }
+      }
+
+      .developed-section {
+        background-color: #eff4f7;
+        padding: 50px 0;
+      }
+      
+      .developed-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        border: 7px solid black;
+        box-shadow: 2px 2px 8px black;
+        background-color: #abdddb;
+      }
+      
+     .developed-container h2{
+        color: #0a0909;
+        text-align: center;
+      }
+      
+     .developed-container p{
+        color: black;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+      }
+      @media (max-width: 768px) {
+        .developed-container {
+            padding: 0px;
+        }
+      }
+
+      .key-component{
+        display: flex;
+        justify-content: space-evenly;
+            text-align: center; /* Center the content */
+            padding: 4rem; /* Add some padding */
+            background-color: #abdddb; /* Light gray background */
+            border: 5px solid blue;
+            box-shadow: 5px 5px 7px blue;
+            height: 41rem;
+          }
+          
+          .key-component h2 {
+            margin-bottom: 1rem; /* Add space below heading */
+            font-size: 3rem; /* Larger font size for heading */
+            color: rgb(2, 2, 81);
+            
+          }
+          
+          .key-component p {
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            line-height: 2rem; /* Add some line spacing */
+            margin-bottom: 2rem; /* Add space below paragraph */
+            color: #0a0909;
+            text-align: left;
+          }
+          
+          .key-component img {
+            width: 68%; /* Set the image width */
+            border-radius: 5px; /* Add rounded corners */
+            margin: 0 auto; /* Center the image horizontally */
+            display: flex;
+            margin-right: 5%;
+          }
+          
+          /* Media query for smaller screens */
+          @media (max-width: 768px) {
+            .key-component img {
+              width: 100%; /* Make image full width on small screens */
+            }
+        }
+
+        .collaboration-section {
+            background-color: #eff4f7;
+            padding: 50px 0;
+          }
+          
+          .collaboration-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+            border: 7px solid black;
+            box-shadow: 2px 2px 8px black;
+            background-color: #abdddb;
+          }
+          
+         .collaboration-container h2{
+            color: #0a0909;
+            text-align: center;
+          }
+          
+         .collaboration-container p{
+            color: black;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-align: center;
+          }
+          @media (max-width: 768px) {
+            .collaboration-container {
+                padding: 0px;
+            }
+          }
+          
+    .conclusion-section {
+        background-color: #eff4f7;
+        padding: 50px 0;
+      }
+      
+      .conclusion-container {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+        border: 7px solid black;
+        box-shadow: 2px 2px 8px black;
+        background-color: #abdddb;
+      }
+      
+     .conclusion-container h2{
+        color: #0a0909;
+        text-align: center;
+      }
+      
+     .conclusion-container p{
+        color: black;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-align: center;
+      }
+      @media (max-width: 768px) {
+        .conclusion-container {
+            padding: 0px;
+        }
+      }

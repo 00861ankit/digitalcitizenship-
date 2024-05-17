@@ -1,0 +1,312 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eff4f7;
+  }
+
+.about {
+    display: flex;
+    justify-content: space-evenly;
+        text-align: center; /* Center the content */
+        padding: 4rem; /* Add some padding */
+        background-color: #abdddb; /* Light gray background */
+        border: 3px solid blue;
+        box-shadow: 5px 5px 8px skyblue ;
+        margin-top: 5rem;
+      }
+      
+      .about h2 {
+        margin-bottom: 1rem; /* Add space below heading */
+        font-size: 3rem; /* Larger font size for heading */
+        color: rgb(2, 2, 81);
+        
+      }
+      
+      .about p {
+        font-size: 1.1rem;
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+        line-height: 2rem; /* Add some line spacing */
+        margin-bottom: 2rem; /* Add space below paragraph */
+        color: #0a0909;
+        font-weight: 500;
+      }
+      
+      .about img {
+        width: 110%; /* Set the image width */
+        border-radius: 5px; /* Add rounded corners */
+        margin: 0 auto; /* Center the image horizontally */
+        display: flex;
+        height: auto;
+      }
+      
+      /* Media query for smaller screens */
+      @media (max-width: 768px) {
+        .about img {
+          width: 100%; /* Make image full width on small screens */
+        }
+    }
+
+    .key-objective {
+        display: flex;
+        justify-content: space-evenly;
+            text-align: center; /* Center the content */
+            padding: 4rem; /* Add some padding */
+            background-color: #abdddb; /* Light gray background */
+            border: 3px solid blue;
+            box-shadow: 5px 5px 8px skyblue ;
+            margin-top: 5rem;
+            height: 20rem;
+          }
+          
+          .key-objective h2 {
+            margin-bottom: 1rem; /* Add space below heading */
+            font-size: 3rem; /* Larger font size for heading */
+            color: rgb(2, 2, 81);
+            
+          }
+          
+          .key-objective p {
+            font-size: 1.1rem;
+            /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+            line-height: 2rem; /* Add some line spacing */
+            margin-bottom: 2rem; /* Add space below paragraph */
+            color: #0a0909;
+            font-weight: 500;
+            margin-right: 5%;
+            }
+          
+          .key-objective img {
+            width: 115%; /* Set the image width */
+            border-radius: 5px; /* Add rounded corners */
+            margin: 0 auto; /* Center the image horizontally */
+            display: flex;
+          }
+          
+          /* Media query for smaller screens */
+          @media (max-width: 768px) {
+            .key-objective img {
+              width: 100%; /* Make image full width on small screens */
+            }
+        }
+
+        
+          
+          .context-section {
+            background-color: #eff4f7;
+            padding: 50px 0;
+          }
+          
+          .context-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+            border: 7px solid black;
+            box-shadow: 2px 2px 8px black;
+            background-color: #abdddb;
+            margin-top: 5%;
+            height: 35vh;
+          }
+          
+         .context-container h2{
+            color: #0a0909;
+            text-align: center;
+          }
+          
+         .context-container p{
+            color: black;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+          }
+          @media (max-width: 768px) {
+            .context-container{
+                padding: 0px;
+            }
+        }
+
+        .scenario-section {
+            background-color: #eff4f7;
+            padding: 50px 0;
+          }
+          
+          .scenario-container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 0 20px;
+            border: 7px solid black;
+            box-shadow: 2px 2px 8px black;
+            background-color: #abdddb;
+          }
+          
+         .scenario-container h2{
+            color: #0a0909;
+            text-align: center;
+          }
+          
+         .scenario-container p{
+            color: black;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+          }
+          @media (max-width: 768px) {
+            .scenario-container{
+                padding: 0px;
+            }
+        }
+
+        .scenario-section {
+            display: flex;
+            justify-content: space-evenly;
+                text-align: center; /* Center the content */
+                padding: 4rem; /* Add some padding */
+                background-color: #abdddb; /* Light gray background */
+                border: 3px solid blue;
+                box-shadow: 5px 5px 8px skyblue ;
+                margin-top: 5rem;
+              }
+              
+              .scenario-section h2 {
+                margin-bottom: 1rem; /* Add space below heading */
+                font-size: 3rem; /* Larger font size for heading */
+                color: rgb(2, 2, 81);
+                
+              }
+              
+              .scenario-section p {
+                font-size: 1.1rem;
+                /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+                line-height: 2rem; /* Add some line spacing */
+                margin-bottom: 2rem; /* Add space below paragraph */
+                color: #0a0909;
+                font-weight: 500;
+
+              }
+              
+              .scenario-section img {
+                width: 90%; /* Set the image width */
+                border-radius: 5px; /* Add rounded corners */
+                margin: 0 auto; /* Center the image horizontally */
+                display: flex;
+              }
+              
+              /* Media query for smaller screens */
+              @media (max-width: 768px) {
+                .scenario-section img {
+                  width: 100%; /* Make image full width on small screens */
+                }
+            }
+
+            .framework-section {
+                display: flex;
+                justify-content: space-evenly;
+                    text-align: center; /* Center the content */
+                    padding: 4rem; /* Add some padding */
+                    background-color: #abdddb; /* Light gray background */
+                    border: 3px solid blue;
+                    box-shadow: 5px 5px 8px skyblue ;
+                    margin-top: 5rem;
+                  }
+                  
+                  .framework-section h2 {
+                    margin-bottom: 1rem; /* Add space below heading */
+                    font-size: 3rem; /* Larger font size for heading */
+                    color: rgb(2, 2, 81);
+                    
+                  }
+                  
+                  .framework-section p {
+                    font-size: 1.1rem;
+                    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+                    line-height: 2rem; /* Add some line spacing */
+                    margin-bottom: 2rem; /* Add space below paragraph */
+                    color: #0a0909;
+                    font-weight: 500;
+                  }
+                  
+                  .framework-section img {
+                    width: 90%; /* Set the image width */
+                    border-radius: 5px; /* Add rounded corners */
+                    margin: 0 auto; /* Center the image horizontally */
+                    display: flex;
+                  }
+                  
+                  /* Media query for smaller screens */
+                  @media (max-width: 768px) {
+                    .framework-section img {
+                      width: 100%; /* Make image full width on small screens */
+                    }
+                }
+
+                .collaborative-section {
+                    background-color: #eff4f7;
+                    padding: 50px 0;
+                  }
+                  
+                  .collaborative-container {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    padding: 0 20px;
+                    border: 7px solid black;
+                    box-shadow: 2px 2px 8px black;
+                    background-color: #abdddb;
+                    margin-top: 5%;
+                  }
+                  
+                 .collaborative-container h2{
+                    color: #0a0909;
+                    text-align: center;
+                  }
+                  
+                 .collaborative-container p{
+                    color: black;
+                    line-height: 1.6;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    text-align: center;
+                    height: 20vh;
+                  }
+                  @media (max-width: 768px) {
+                    .collaborative-container{
+                        padding: 0px;
+                    }
+                }
+
+                .conclusion-section {
+                    background-color: #eff4f7;
+                    padding: 50px 0;
+                  }
+                  
+                .conclusion-container {
+                    max-width: 100%;
+                    margin: 0 auto;
+                    padding: 0 20px;
+                    border: 7px solid black;
+                    box-shadow: 2px 2px 8px black;
+                    background-color: #abdddb;
+                    height: 30vh;
+                  }
+                  
+                 .conclusion-container h2{
+                    color: #0a0909;
+                    text-align: center;
+                  }
+                  
+                 .conclusion-container p{
+                    color: black;
+                    line-height: 1.6;
+                    font-size: 1.1rem;
+                    font-weight: 400;
+                    text-align: center;
+                  }
+                  @media (max-width: 768px) {
+                    .conclusion-container{
+                        padding: 0px;
+                    }
+                }
+        
+
+                
